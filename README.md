@@ -1,10 +1,6 @@
 # Vue-Monster-Slayer
 
-This is a practise project to practise every core feature Vue has. 
-As you can see on the video, it's a battle system simulator where you can attack, heal, use a special attack which deals more damage or surrender the fight.
-This app has additional battle log which shows the person who plays what is happening.
-
-
+This is a practice project to practice every core feature Vue has. As you can see on the video, it's a battle system simulator where you can attack, heal, and use a special attack that deals more damage or surrender the fight. This app has an additional battle log that shows the person who plays what is happening.
 
 <div align="center">
   <video src="https://user-images.githubusercontent.com/88943189/206552557-e4a114d1-a0b1-46f8-aad1-b00df634fc89.mp4
@@ -33,23 +29,23 @@ This app has additional battle log which shows the person who plays what is happ
 
 ### Data & Event Bindings
 - Bind data via '{{}}' - interpolation or ':' - v-bind directive
-- Listenning for events via '@' - v-on
+- Listening for events via '@' - v-on
 
 ### Styling
 - Dynamic CSS class and inline style bindings
 - Multiple special syntaxes (object-based, array-based) for efficient bindings
 
-## Conditional Content
-- v-if, v-else-if, v-else and v-show render certain condition
+### Conditional Content
+- v-if, v-else-if, v-else, and v-show render the specific condition
 
-## Lists, v-for Variations, Keys
+### Lists, v-for Variations, Keys
 - v-for to render elements dynamically - arrays, objects, and ranges (numbers)
 - Can extract values, indexes, keys
-- Vue re-uses DOM elements to optimize performance, bind the key attribute to a unique value to help Vue identify elements
+- Vue re-uses DOM elements to optimize performance and binds the key attribute to a unique value to help Vue identify elements
 
 ## Challenges and Results
-- Used everything what I have learned before
-- Working with different events and methods, computed properties and watchers
+- Used everything that I have learned before
+- Working with different events and methods, computed properties, and watchers
 - Dynamic content and style attributes
-- Making different scenarios reality, using different abilities and make a working game
-- Code is reusable, no code duplications and close to modification and open to extension
+- Making different scenarios a reality, using different abilities, and making a working game
+- Code is reusable, has no code duplications and close to modification, and is open to extension
